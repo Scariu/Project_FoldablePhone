@@ -2,7 +2,7 @@ package com.example.project_foldablephone
 
 open class Phone(var isScreenLightOn: Boolean = false) {
     //Encender telefono
-    fun switchOn() {
+    open fun switchOn() {
         //Pantalla encendida
         isScreenLightOn = true
     }
