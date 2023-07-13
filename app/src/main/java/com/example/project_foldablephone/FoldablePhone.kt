@@ -1,4 +1,4 @@
 package com.example.project_foldablephone
 
-class FoldablePhone {
+class FoldablePhone(isScreenLightOn: Boolean = false) : Phone(isScreenLightOn) {
 }
